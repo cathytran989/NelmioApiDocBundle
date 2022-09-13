@@ -151,7 +151,7 @@ final class OpenApiPhpDescriber
                 $operation->mergeProperties($mergeProperties);
 
                 if (Generator::UNDEFINED === $operation->operationId) {
-                    $operation->operationId = $httpMethod.'_'.$routeName;
+                    //$operation->operationId = $httpMethod.'_'.$routeName;
                 }
             }
         }
